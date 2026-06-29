@@ -4,7 +4,7 @@ variable "aws_region" {
 }
 
 variable "bastion_instance_type" {
-  description = "EC2 instance type to use for bastion instance, additional description added here"
+  description = "EC2 instance type to use for bastion instance"
   type        = string
 }
 
